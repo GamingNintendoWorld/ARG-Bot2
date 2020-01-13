@@ -1,7 +1,7 @@
 const {Client, Attachment} = require('discord.js');
 const bot = new Client();
 
-const token = 'NjY2MTEzODcxODgyNDg1ODEx.XhvzZA.8LIEU_102an6UfLfGtAyh7IgLK0';
+const token = 'NjY2MTEzODcxODgyNDg1ODEx.XhxEeg.c1nyKMU_lDf2cftUId_f0tdaM4g';
 
 const PREFIX = '!';
 
@@ -27,17 +27,6 @@ bot.on('message', message=>{
     switch(args[0]){
         case '?':
             message.channel.sendMessage('kcab srettel eerhT');
-        break;
-    }
-})
-
-bot.on('message', message=>{
-    
-    let args = message.content.substring(PREFIX.lenght).split("!");
-
-    switch(args[0]){
-        case '':
-            message.channel.sendMessage('');
         break;
     }
 })
