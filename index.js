@@ -31,4 +31,4 @@ bot.on('message', message=>{
     }
 })
 
-client.login(process.env.NjY2MTEzODcxODgyNDg1ODEx.XhxEeg.c1nyKMU_lDf2cftUId_f0tdaM4g);
+bot.login(process.env.NjY2MTEzODcxODgyNDg1ODEx.XhxEeg.c1nyKMU_lDf2cftUId_f0tdaM4g);
