@@ -1,7 +1,7 @@
 const {Client, Attachment} = require('discord.js');
 const bot = new Client();
 
-const token = 'NjY2MTEzODcxODgyNDg1ODEx.XhxEeg.c1nyKMU_lDf2cftUId_f0tdaM4g';
+const token = ' ';
 
 const PREFIX = '!';
 
@@ -31,4 +31,4 @@ bot.on('message', message=>{
     }
 })
 
-bot.login(process.env.NjY2MTEzODcxODgyNDg1ODEx.XhxEeg.c1nyKMU_lDf2cftUId_f0tdaM4g);
+bot.login(process.env.BOT_TOKEN);
