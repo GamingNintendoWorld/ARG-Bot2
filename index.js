@@ -1,4 +1,4 @@
-const {Client, Attacthment} = require('discord.js');
+const {Client, Attachment} = require('discord.js');
 const bot = new Client();
 
 const PREFIX = '!';
