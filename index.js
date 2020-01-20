@@ -1,6 +1,8 @@
 const {Client, Attachment} = require('discord.js');
 const bot = new Client();
 
+const token = 'BOT_TOKEN';
+
 const PREFIX = '!';
 
 bot.on('ready', () =>{
