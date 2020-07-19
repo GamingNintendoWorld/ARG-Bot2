@@ -49,7 +49,7 @@ bot.on('message', (msg) => {
     }
  
     if (msg.content === 'pls status') {
-        bot.user.setPresence({ game: { name: 'Nintendo Direct', type: "watching", url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLj2xqTMxjE7RG3e3WrIORgLdhnBruq5g1&index=29&t=0s"}});
+        bot.user.setActivity({ game: { name: 'Nintendo Direct', type: "watching", url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLj2xqTMxjE7RG3e3WrIORgLdhnBruq5g1&index=29&t=0s"}});
     }
     
 //    if (msg.content === "") {
