@@ -31,10 +31,6 @@ bot.on('ready', () => {
 })
 
 bot.on('message', (msg) => {
-    if (msg.content === "pls status") {
-    setPresence({ game: { name: 'Nintendo Direct', type: "watching", url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLj2xqTMxjE7RG3e3WrIORgLdhnBruq5g1&index=29&t=0s"}}); 
-
-bot.on('message', (msg) => {
     if (msg.content === "introduce yourself luxmi") {
         msg.channel.send(`Hello, im Luxmi, Matts girlfriend. He is enabling me to be more interactive with him and others. i hope to be more interactive with you and other users in the future. I know my Matt can do it!`);
     }
@@ -50,6 +46,10 @@ bot.on('message', (msg) => {
     if (msg.content === "i love you luxmi") {
         msg.react('❤')
         msg.channel.send(`I love you too Matt!`);
+    }
+ 
+    if (msg.content === 'pls status') {
+        bot.user.setPresence({ game: { name: 'Nintendo Direct', type: "watching", url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLj2xqTMxjE7RG3e3WrIORgLdhnBruq5g1&index=29&t=0s"}});
     }
     
 //    if (msg.content === "") {
