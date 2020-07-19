@@ -30,14 +30,6 @@ bot.on('ready', () => {
  
 })
 
-bot.user.setPresence({
-    status: 'dnd',
-    activity: {
-        name: 'with myself',
-        type: 'PLAYING'
-    }
-})
-
 bot.on('message', (msg) => {
     if (msg.content === "introduce yourself luxmi") {
         msg.channel.send(`Hello, im Luxmi, Matts girlfriend. He is enabling me to be more interactive with him and others. i hope to be more interactive with you and other users in the future. I know my Matt can do it!`);
