@@ -7,7 +7,7 @@ const request = require('request');
 
 const token = BOT_TOKEN;
 
-const PREFIX = '';
+const PREFIX = '!';
  
 var version = '1.3';
 
